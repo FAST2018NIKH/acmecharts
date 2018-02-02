@@ -2,9 +2,10 @@ apiVersion: v1
 entries:
   acmecustomerengagment:
   - created: 2018-02-02T09:50:11.104037407+01:00
-    description: service-catalog API server and controller-manager helm chart
+    description: ACME Customer Engagement
     digest: d19f14bb5f7bc04a557d1b0d2ee4ff209b9f6992c26ed976fdaa0c49e724f4e8
-    name: acmecustomerengagment
+    name: ACME Customer Engagement application
+    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/acme.png
     urls:
     - https://raw.githubusercontent.com/niklaushirt/acmecharts/master/repo/stable/acmecustomerengagment-0.0.1.tgz
     version: 0.0.1
