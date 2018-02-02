@@ -2,63 +2,32 @@ apiVersion: v1
 entries:
   catalog:
   - created: 2018-01-29T17:12:09.724782225+01:00
-    description: service-catalog API server and controller-manager helm chart
+    description: ACME Customer Engagement application
     digest: 3bf05bebb4f2d124361e6edfc0b8bcbc8423fc5350dc5527b501fda57b927181
-    name: catalog
+    name: ACME Customer Engagement
+    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/urbancodedeployicon.png
     urls:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/catalog-0.0.1.tgz
     version: 0.0.1
-  ghost:
-  - appVersion: 0.11.10
-    created: 2018-01-29T17:12:09.726034842+01:00
-    description: A simple, powerful publishing platform that allows you to share your
-      stories with the world
-    digest: 1aea0e3e7c81687d92eb804b18c107250ed87a640e8b72b75751bf874990988f
-    engine: gotpl
-    home: http://www.ghost.org/
-    icon: https://bitnami.com/assets/stacks/ghost/img/ghost-stack-220x234.png
-    keywords:
-    - ghost
-    - blog
-    - http
-    - web
-    - application
-    - nodejs
-    - javascript
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
-    name: ghost
-    sources:
-    - https://github.com/bitnami/bitnami-docker-ghost
+  catalog1:
+  - created: 2018-01-29T17:12:09.724782225+01:00
+    description: ACME Home Loan Approval.
+    digest: 3bf05bebb4f2d124361e6edfc0b8bcbc8423fc5350dc5527b501fda57b927181
+    name: ACME Home Loan Approval
+    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/urbancodedeployicon.png
     urls:
-    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/ghost-0.4.15.tgz
-    version: 0.4.15
-  gitlab-ce:
-  - created: 2018-01-29T17:12:09.726393874+01:00
-    description: GitLab CE release
-    digest: 1e023b20e615b8fd937f5ef58a0765e64f418852a13c30393ef0e050ccaa85ee
-    home: http://gitlab.com
-    icon: https://docs.gitlab.com/assets/images/gitlab-logo.svg
-    keywords:
-    - git
-    - gitlab
-    maintainers:
-    - email: zhiweik@gmail.com
-      name: Zhiwei
-    name: gitlab-ce
-    sources:
-    - https://hub.docker.com/r/gitlab/gitlab-ce
+    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/catalog-0.0.1.tgz
+    version: 0.0.1
+  catalog2:
+  - created: 2018-01-29T17:12:09.724782225+01:00
+    description: ACME Expense Management
+    digest: 3bf05bebb4f2d124361e6edfc0b8bcbc8423fc5350dc5527b501fda57b927181
+    name: ACME Expense Management
+    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/urbancodedeployicon.png
     urls:
-    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/gitlab-ce-9.3.8-ce.0.tgz
-    version: 9.3.8-ce.0
-  guestbook:
-  - apiVersion: v1
-    created: 2018-01-29T17:12:09.726677826+01:00
-    description: A Helm chart for a Kubernetes Guestbook
-    digest: b513587be7aeceb2d8570e0c7ae9f22d1f1053d222a0426ec8011b89788f8296
-    name: guestbook
-    urls:
-    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/guestbook-0.1.0.tgz
-    version: 0.1.0
+    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/catalog-0.0.1.tgz
+    version: 0.0.1
+
+
+
 generated: 2018-01-29T17:12:09.723759163+01:00
