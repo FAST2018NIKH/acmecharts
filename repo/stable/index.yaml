@@ -2,74 +2,10 @@ apiVersion: v1
 entries:
   acmecustomerengagment:
   - created: 2018-02-02T09:50:11.104037407+01:00
-    description: ACME Customer Engagement
+    description: service-catalog API server and controller-manager helm chart
     digest: d19f14bb5f7bc04a557d1b0d2ee4ff209b9f6992c26ed976fdaa0c49e724f4e8
-    name: ACME Customer Engagement application
-    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/acme.png
+    name: acmecustomerengagment
     urls:
     - https://raw.githubusercontent.com/niklaushirt/acmecharts/master/repo/stable/acmecustomerengagment-0.0.1.tgz
-    version: 2.1.4
-  catalog1:
-  - created: 2018-01-29T17:12:09.724782225+01:00
-    description: ACME Home Loan Approval Mobile. Mobile version for the mobile workforce.
-    digest: 3bf05bebb4f2d124361e6edfc0b8bcbc8423fc5350dc5527b501fda57b927182
-    name: ACME Home Loan Approval
-    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/acme.png
-    urls:
-    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/catalog-0.0.1.tgz
     version: 0.0.1
-  catalog2:
-  - created: 2018-01-29T17:12:09.724782225+01:00
-    description: ACME Expense Management. Web application for internal expense approval.
-    digest: 3bf05bebb4f2d124361e6edfc0b8bcbc8423fc5350dc5527b501fda57b927182
-    name: ACME Expense Management
-    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/acme.png
-    urls:
-    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/catalog-0.0.1.tgz
-    version: 0.0.1
-  catalog3:
-  - created: 2018-01-29T17:12:09.724782225+01:00
-    description: ACME Mobile Workforce is the brand new portal for the mobile workforce.
-    digest: 3bf05bebb4f2d124361e6edfc0b8bcbc8423fc5350dc5527b501fda57b927182
-    name: ACME Mobile Workforce
-    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/acme.png
-    urls:
-    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/catalog-0.0.1.tgz
-    version: 0.0.1
-  catalog4:
-  - created: 2018-01-29T17:12:09.724782225+01:00
-    description: ACME Backoffice (CH-DE)
-    digest: 3bf05bebb4f2d124361e6edfc0b8bcbc8423fc5350dc5527b501fda57b927182
-    name: ACME Backoffice (CH-DE)
-    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/acme.png
-    urls:
-    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/catalog-0.0.1.tgz
-    version: 0.0.1
-  catalog5:
-  - created: 2018-01-29T17:12:09.724782225+01:00
-    description: ACME Backoffice (CH-FR)
-    digest: 3bf05bebb4f2d124361e6edfc0b8bcbc8423fc5350dc5527b501fda57b927182
-    name: ACME Backoffice (CH-FR)
-    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/acme.png
-    urls:
-    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/catalog-0.0.1.tgz
-    version: 0.0.1
-  catalog6:
-  - created: 2018-01-29T17:12:09.724782225+01:00
-    description: ACME Backoffice (AT)
-    digest: 3bf05bebb4f2d124361e6edfc0b8bcbc8423fc5350dc5527b501fda57b927182
-    name: ACME Backoffice (AT)
-    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/acme.png
-    urls:
-    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/catalog-0.0.1.tgz
-    version: 0.0.1
-  catalog7:
-  - created: 2018-01-29T17:12:09.724782225+01:00
-    description: ACME Backoffice (DE)
-    digest: 3bf05bebb4f2d124361e6edfc0b8bcbc8423fc5350dc5527b501fda57b927182
-    name: ACME Backoffice (DE)
-    icon: https://github.com/niklaushirt/acmecharts/raw/master/icons/acme.png
-    urls:
-    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/catalog-0.0.1.tgz
-    version: 0.0.1
-generated: 2018-01-29T17:12:09.723759163+01:00
+generated: 2018-02-02T09:50:11.098044165+01:00
